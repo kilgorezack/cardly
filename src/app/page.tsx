@@ -93,12 +93,6 @@ export default function Home() {
               >
                 Download for Free
               </a>
-              <Link
-                href="/pricing"
-                className="inline-flex items-center rounded-full border-2 border-brand-orange px-8 py-3.5 text-sm font-semibold text-brand-navy transition hover:bg-brand-orange/10"
-              >
-                View Pricing
-              </Link>
             </div>
           </div>
         </div>
@@ -205,12 +199,6 @@ export default function Home() {
             >
               Download Cardly Free
             </a>
-            <Link
-              href="/pricing"
-              className="inline-flex items-center rounded-full border-2 border-white/30 px-8 py-3.5 text-sm font-semibold text-white transition hover:border-white/60"
-            >
-              See Plans &amp; Pricing
-            </Link>
           </div>
         </div>
       </section>

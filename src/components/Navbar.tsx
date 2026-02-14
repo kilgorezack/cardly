@@ -18,9 +18,6 @@ export default function Navbar() {
           <Link href="/#features" className="text-sm font-medium text-foreground/70 transition hover:text-brand-navy">
             Features
           </Link>
-          <Link href="/pricing" className="text-sm font-medium text-foreground/70 transition hover:text-brand-navy">
-            Pricing
-          </Link>
           <a
             href="#"
             className="rounded-full bg-brand-navy px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-navy/90"
@@ -51,13 +48,6 @@ export default function Navbar() {
               className="text-sm font-medium text-foreground/70 transition hover:text-brand-navy"
             >
               Features
-            </Link>
-            <Link
-              href="/pricing"
-              onClick={() => setMobileOpen(false)}
-              className="text-sm font-medium text-foreground/70 transition hover:text-brand-navy"
-            >
-              Pricing
             </Link>
             <a
               href="#"
